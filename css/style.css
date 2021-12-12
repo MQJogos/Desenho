@@ -10,7 +10,7 @@ body
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #607d8b;
+  background: #02c8d1;
 }
 .container 
 {
@@ -22,7 +22,7 @@ body
   position: relative;
   width: 280px;
   height: 300px;
-  background: linear-gradient(to right, #ff5c9a, #d9d9d9) ;
+  background: linear-gradient(to right, #ff537b, #e54265) ;
   border-bottom-left-radius: 45%;
   border-bottom-right-radius: 45%;
 }
@@ -33,7 +33,7 @@ body
   left: 0;
   width: 100%;
   height: 60px;
-  background: linear-gradient(to right, #ff5c9a, #f9f9f9);
+  background: linear-gradient(to right, #ff537b, #e54265);
   border-radius: 50%;
 }
 .circle
@@ -55,7 +55,7 @@ body
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#4f240d, #4f240d);
+  background: linear-gradient(#7D5556, #7C5655);
   border-radius: 50%;
 
 }
