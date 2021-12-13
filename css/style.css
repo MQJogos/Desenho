@@ -43,7 +43,7 @@ body
   left: 10px;
   width: calc(100% - 20px);
   height: 50px;
-  background: linear-gradient(to left, #f9f9f9);
+  background: linear-gradient(to left, #f9f9f9,#d9d9d9);
   border-radius: 50%;
   box-sizing: border-box;
   overflow: hidden;
@@ -61,7 +61,7 @@ body
 .handle
 {
   position: absolute;
-  right: -70;
+  right: -70px;
   top: 40px;
   width: 160px;
   height: 180px;
@@ -76,7 +76,7 @@ body
   position:absolute;
   bottom: -50px;
   left: 50%;
-  trasform: translateX(-50%);
+  transform: translateX(-50%);
   width: 500px;
   height: 200px;
   background: linear-gradient(to right, #ff537b, #e54265);
@@ -85,7 +85,7 @@ body
 }
 .plate::before
 {
-  content: '';
+  content:'';
   position: absolute; 
   top: 10px;
   left: 10px;
@@ -96,7 +96,7 @@ body
 }
 .plate::after
 {
-  content: '';
+  content:'';
   position: absolute;
   top: 30px;
   left: 30px;
@@ -121,7 +121,7 @@ body
   min-width: 8px;
   height: 120px;
   background: #fff;
-  border-radius: 50%:
+  border-radius: 50%;
   animation: animate 5s linear infinite;
   opacity:0;
   filter: blur(8px);
